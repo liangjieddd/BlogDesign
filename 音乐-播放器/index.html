@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="zh-CN">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>播放器</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+<link href="css/main.css"  rel="stylesheet" type="text/css"media="" /> 
+ <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script> 
+  <script src="js/player.js" type="text/javascript"></script>  
+</head>
+<body>
+<div id="menu">
+	<ul>
+        <li><a href="../主页/index.html">我的小屋</a></li>
+		<li><a href="../二次元-主页/index.html">二次元地带</a></li>
+		<li><a href="../音乐/index.html">品茗音乐</a></li>
+		<li><a href="../书-主页/index.html">书海遨游</a></li>
+		<li><a href="../视频/index.html">视频欣赏</a></li>
+		<li><a href="../图片-主页/index.html">图片世界</a></li>
+        <li class="active"><a href="index.html">播放器</a></li>
+		
+	</ul>
+</div>
+<!-- end #menu -->
+<div id="header">
+	<h1><a href="#"></a></h1>
+	
+</div>
+<!-- end #header -->
+<div id="page">
+	<div id="content">
+    <h1><strong>音乐播放器</strong></h1>    
+	<div id="player"> 
+   <audio id="musicbox"></audio> 
+   <div id="controls" class="clearfix controls"> 
+    <div id="play" class="playing"></div> 
+    <div id="next"></div> 
+    <div id="progress"> 
+     <div></div> 
+     <p id="time">00:00 / 00:00</p> 
+    </div> 
+    <div id="volume"> 
+     <div></div> 
+    </div> 
+   </div> 
+   <div class="bar">
+    <button>重置列表</button>
+    <button>随机打乱</button>
+    <button>清空列表</button>
+   </div> 
+   <ul id="musiclist"></ul> 
+   <div class="bar bottom">
+    <span>播放模式：</span>
+    <span id="mode">全部</span>
+   </div> 
+  </div> 
+  <br />
+  <br />
+  
+  <h3>歌单列表：</h3>
+  	
+		<ol>
+        <li>春暖花开-那英</li>
+         <li>春暖花开-自己录</li>
+          <li>风起时-胡歌</li>
+           <li>赤血长殷-慕寒、五色石楠叶</li>
+            <li>长相忆-慕寒、五色石楠叶</li>
+        
+        </ol>		
+	</div>
+	<!-- end #sidebar -->
+	<div style="clear: both;">&nbsp;</div>
+</div>
+<!-- end #page -->
+<div id="footer">
+	<p id="legal">Copyright &copy; 2017 All Rights Reserved. Designed by 软件1425董靓杰（2014006241）</p>
+	
+</div>
+<!-- end #footer -->
+</body>
+</html>
